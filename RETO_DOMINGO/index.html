@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reto 2 </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+</head>
+<body>
+<h1>RESERVAS</h1>
+<button onclick="consultaInfoCliente()"> Consultar Cliente </button>
+<div id="resultado"></div>
+<div>
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="Nombre" placeholder="Nombre">
+    <input type="text" id="Email" placeholder="Email">
+    <input type="number" id="age" placeholder="age">
+    <button onclick="registrarCliente()"> Registrar Cliente </button>
+    <button onclick="editarInformacion()"> Actualizar Cliente </button>
+</div>
+<div>
+    <h2>Mensajes</h2>
+    <button onclick="consultaMensaje()"> Consultar Mensaje </button>
+    <div id="resultadoMensaje"></div>
+</div>
+<div>
+    <input type="number" id="id" placeholder="id">
+    <input type="text" id="descMensaje" placeholder="Mensaje">
+    <button onclick="InsertarMensaje()"> Registrar Mensaje</button>
+</div>
+
+</body>
+</html>
